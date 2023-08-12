@@ -1,0 +1,28 @@
+{
+	"info": {
+		"_postman_id": "823b8b2e-a864-442d-bf7e-f520f9ebd6d1",
+		"name": "Dimy Tech Test",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "28140438"
+	},
+	"item": [
+		{
+			"name": "create-transaction",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"customer_address_id\": 1,\n    \"product_id\": 2,\n    \"payment_method_id\": 2,\n    \"product_qty\": 2\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "localhost:8081/api/transaction/create-transaction"
+			},
+			"response": []
+		}
+	]
+}
